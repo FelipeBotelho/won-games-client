@@ -1,6 +1,7 @@
 import { Story, Meta } from '@storybook/react'
 import Main from '.'
 
+const number = 1
 export default {
   title: 'Main',
   component: Main,
