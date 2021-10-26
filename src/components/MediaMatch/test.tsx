@@ -10,11 +10,11 @@ describe('<MediaMatch />', () => {
     render(
       <>
         <MediaMatch greaterThan="medium">
-          <h1 data-testId="desktop">Desktop</h1>
+          <h1 data-testid="desktop">Desktop</h1>
         </MediaMatch>
 
         <MediaMatch lessThan="medium">
-          <h1 data-testId="mobile">Mobile</h1>
+          <h1 data-testid="mobile">Mobile</h1>
         </MediaMatch>
       </>
     )
